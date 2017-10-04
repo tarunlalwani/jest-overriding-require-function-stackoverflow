@@ -1,0 +1,18 @@
+{
+  "name": "jesttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./jestload.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.11.2",
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
